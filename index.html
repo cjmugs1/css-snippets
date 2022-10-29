@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/resets.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <h1>CSS <span id="Snip">Snip</span>pet Cheatsheet || <span id="Flexbox">Flexbox</span></h1>
+    <p>Ever have trouble recalling the exact syntax for your favorite CSS display mode? Below are some common Flexbox styles to make use of.</p>
+    <!-- <a href="./home-page.html">Home</a> -->
+</header>
+
+<main>
+    <section class="main-content">
+    <div class="content-boxes">
+        <div class="content-headers">
+            <h2>Flexbox Row</h2>
+        </div>
+        <p>Use these three properties to create a Flexbox Row layout.</p>
+        <div class="coding-cards">
+            <p class="coding-text">
+                .row {
+                <br>display: flex;
+                <br>flex-direction: row;
+                <br>flex-wrap: wrap;
+                <br>}
+            </p>
+        </div>
+    </div>
+
+    <div class="content-boxes">
+        <div class="content-headers">
+            <h2>Flexbox Column</h2>
+        </div>
+        <p>Use this to create a Flexbox Column layout.</p>
+        <div class="coding-cards">
+            <p class="coding-text">
+                .column {
+                <br>display: flex;
+                <br>flex-direction: column;
+                <br>}
+            </p>
+        </div>  
+    </div>
+
+    <div class="content-boxes">
+        <div class="content-headers">
+            <h2>CSS Grid Layout</h2>
+        </div>
+        <p>Build a 12-column layout using CSS Grid.</p>
+        <div class="coding-cards">
+            <p class="coding-text">
+                .grid {
+                <br>display: grid;
+                <br>width: 100%;
+                <br>grid-template-columns: repeat(12, 1fr);
+                <br>}
+            </p>
+        </div>
+    </div>
+
+    <div class="content-boxes">
+        <div class="content-headers">
+            <h2>Linear Gradients</h2>
+        </div>
+        <p>This will create a background linear gradient from top to bottom.</p>
+        <div class="coding-cards">
+            <p class="coding-text">
+                .linear-gradient {
+                <br>background: 
+                <br>linear-gradient(#fff, #fff);
+                <br>}
+            </p>
+        </div>
+    </div>
+
+    <div class="content-boxes">
+        <div class="content-headers">
+            <h2>Box Transition Glow</h2>
+        </div>
+        <p>Use transition and box shadows to glow on hover.</p>
+        <div class="coding-cards">
+            <p class="coding-text">
+                .content-boxes {
+                <br>font-size: 16pt;
+                <br>transition: all 0.5s ease-in-out;
+                <br>}
+                <br>
+                <br>.content-boxes:hover {
+                <br>font-size: 24pt;
+                <br>}
+            </p>
+        </div>
+    </div>
+
+    <div class="content-boxes">
+        <div class="content-headers">
+            <h2>Overlay Card with Title</h2>
+        </div>
+        <p>Use position properties and negative margins to make elements appear as if they sit outside their parent.</p>
+        <div class="coding-cards">
+            <p class="coding-text">
+                .content-headers {
+                <br>position: relative;
+                <br>top: -20px;
+                <br>}
+            </p>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+ <h2>Made with <span>❤</span> and CSS <span class="footer-name">| Connor Mulligan</span></h2>
+</footer>
+
+</body>
+</html>
